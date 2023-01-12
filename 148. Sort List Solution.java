@@ -42,5 +42,4 @@ public class Solution {
     
     return l.next;
   }
-
 }
