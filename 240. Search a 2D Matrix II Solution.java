@@ -5,5 +5,6 @@ class Solution {
                 if(matrix[i][j]==target)return true;
             }
         } return false;
+  
     }
 }
