@@ -3,5 +3,6 @@ class Solution {
         int sum=0;
         for(int n:nums)sum^=n;
         return sum;
+  
     }
 }
