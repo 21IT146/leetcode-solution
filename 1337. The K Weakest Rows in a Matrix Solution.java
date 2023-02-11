@@ -26,6 +26,7 @@ class Solution {
         for(int i=0;i<k;i++){
               idx[i] = ans[i]%1000;
         }
+        
         return idx;
     }
 }
