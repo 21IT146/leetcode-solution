@@ -10,6 +10,7 @@ class Solution {
             sum += node.val * (Math.pow(2,size--));
             node = node.next;
         }
+        
         return sum;
     }
 }
