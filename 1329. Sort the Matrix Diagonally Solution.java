@@ -20,6 +20,7 @@ class Solution {
                 ind1++;
             }
         }
+        
         for(int i=0;i<mat.length;i++){
             ArrayList<Integer>list=new ArrayList<>();
             int ind1=i;
