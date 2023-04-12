@@ -7,6 +7,7 @@ class Solution {
             int size = groupSizes[i];   
             map.putIfAbsent(size, new ArrayList<>());
           
+            
             if (map.get(size).size() == size) {
                 ans.add(map.get(size));  
                 map.put(size, new ArrayList<>()); 
