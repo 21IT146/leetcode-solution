@@ -2,6 +2,7 @@ class Solution {
     public List<String> commonChars(String[] words) {
       
         
+        
         int vt[][]= new int[26][3];
         for(int i=0;i<26;i++)
             vt[i][1]=1000000;
